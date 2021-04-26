@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778979090044",
+    "project_id": "fcmbelv",
+    "storage_bucket": "fcmbelv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778979090044:android:0d86c22125a5da2fedf3f9",
+        "android_client_info": {
+          "package_name": "piwi.esme.BELV22"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778979090044-93vninhrobmvfm8kr43243e5g9pdcra4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpoalBm3-XvUT6Q8A7vfw3tDadQorLTOc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778979090044-93vninhrobmvfm8kr43243e5g9pdcra4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

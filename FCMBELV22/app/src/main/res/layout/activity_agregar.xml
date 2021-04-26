@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/registri"
+    tools:context=".RegistroNuevo">
+
+  <Button
+      android:id="@+id/btn_register"
+      android:layout_width="267dp"
+      android:layout_height="68dp"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentRight="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="401dp"
+      android:layout_marginEnd="80dp"
+      android:layout_marginRight="80dp"
+      android:text="Agregar nuevo"
+      app:backgroundTint="@android:color/holo_orange_dark"
+      app:icon="@android:drawable/ic_input_add"
+      app:iconTint="@color/teal_700">
+
+  </Button>
+
+  <EditText
+      android:id="@+id/txt_correo"
+      android:layout_width="270dp"
+      android:layout_height="50dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="100dp"
+      android:background="@color/white"
+      android:ems="10"
+      android:hint="Email"
+      android:inputType="textPersonName" />
+
+  <EditText
+      android:id="@+id/txt_password"
+      android:layout_width="270dp"
+      android:layout_height="50dp"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="180dp"
+      android:background="@color/white"
+      android:ems="10"
+      android:hint="Password"
+      android:inputType="textPassword" />
+
+</RelativeLayout>
